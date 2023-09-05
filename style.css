@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Raleway:wght@300&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0 ;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.958);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.84)
+}
+.main{
+  /* background-color: red;*/
+    width: 90vw;
+    
+}
+.intro{
+    margin:  88px;
+}
+.container{
+    display: flex;
+    background-color: rgb(201, 172, 172);
+}
+.infocontainer{
+   /* background-color: green;*/
+    height: 68vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.hello{
+font-size: 3em;
+}
+.name{
+font-size: 3em;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+}
+.about{
+   font-size: 2.5em;
+}
+/* Style for the web design paragraph */
+.web-design-paragraph {
+    background-color: #F7EBC8; /* Background color for the web design paragraph */
+    padding: 10px; /* Add some padding for spacing */
+    border: 2px solid #E1C652; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Style for the XAMPP paragraph */
+.xampp-paragraph {
+    background-color: #E2F2E4; /* Background color for the XAMPP paragraph */
+    padding: 10px; /* Add some padding for spacing */
+    border: 2px solid #A0DAA9; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+    font-weight: 600;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px ;
+    font-family: 'Raleway', sans-serif;
+}
+.buttons {
+    margin: 2.2em;
+    font-size: 6px;
+    bottom: 100px; /* Adjust this value as needed */
+    position: absolute;
+}
+.cont {
+    background-color: rgb(239, 250, 246);
+    padding: 23px;
+    margin: 16px;
+    border: 2px solid black;
+    border-radius: 5px; /* Adjust the border-radius as needed */
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+.btn {
+padding: 10px;
+border-radius: 22px;
+margin: 3px 3px;
+font-size: 2em;
+border-color: black;
+color: white;
+background-color:rgb(91, 91, 190);
+cursor: pointer;
+}
+.read-more-section {
+    display: none;
+}
+
+.btn-sm{
+    font-size: 17px;
+}
+.btn:hover{
+    color: black;
+background-color:rgb(195, 222, 75);
+}
+.moreabout{
+    font-size: 28px;
+}
+.devpic img{
+ 
+    /*height: 35vh;
+    margin: 20vh;
+    position: absolute;
+    top: 23px;
+    right: 7px;*/
+    position: absolute;
+    top: 23px;
+    right: 7px;
+    width: 200px;
+   
+   
+}
+
+.hard {
+    border: 4px solid black;
+    background-color: grey;
+    margin: 40px 64px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.contactform{
+    font-family: 'Raleway', sans-serif;
+    padding: 0 34px;
+    font-weight: bold;
+    margin: 88px;
+}
+.contactform h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   /*width: 16vw;*/
+   border-radius: 6px;
+   padding: 3px;
+   margin: 6px 0 0 0;
+}
+.contactform form{
+    margin: 0 40px;
+}
+#emailHelp{
+font-size: 11px;
+color: rgba(5, 5, 76, 0.81);
+margin: 0 5px;
+padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.ProjItem{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Projcontainer{
+    margin:  88px;
+}
+ h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-bottom: 14PX;
+    
+}
+.intro h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 12px;
+    margin-bottom: 14PX;
+}
+.box{
+    background-color: rgb(219, 244, 236);
+}
+.sub{
+   
+    background-color: rgb(219, 244, 236);
+    border-radius: 2px solid black;
+    
+}
+
+
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+   padding: 22px;
+    margin: 22px;
+}
+.skill{
+    width: 163px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+.skillFill {
+    min-height: 10px; /* Set a minimum height for the fill bars */
+    height: 100%; /* Ensure the fill bars occupy the full height of the skillBar div */
+    border-radius: 4px;
+    background-color: green; /* Change the background color as needed */
+}
+
+/* Style for skill container */
+.skillBar {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+/* Style for skill percentages */
+.skillPercent {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-left: 8px;
+}
+
+
+/* Style for skill names */
+.skillName {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.skillcontainer
+{
+    padding: 12px;
+    background-color: rgb(219, 244, 236);
+    display: flex;
+    justify-content: unset;
+}
+
+.skillItem{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+   
+}
+.skillItem div {
+    margin-left: 6px; /* Adjust this value to increase the space between skill name and line */
+}
+.hundered{
+    width: 265px;
+    background-color: aquamarine;
+    border: 2px solid black;
+
+}
+.fifty{
+    width: 125px;
+    background-color:blueviolet;
+    border: 2px solid black;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    color: white;
+    background-color: black;
+}
+.typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 0;
+    animation: typing 1s steps(10, end) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1615px) {
+    .devpic {
+        clear: both;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+   
+    .intro,.Projcontainer,.contactform,.index{
+        margin: 50px 8px;
+    }
+}
+  
+  
+
+
