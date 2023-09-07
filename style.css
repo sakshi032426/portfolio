@@ -286,24 +286,21 @@ p{
     color: #333;
 }
 
-.skillcontainer
-{
-    padding: 12px;
-    background-color: rgb(219, 244, 236);
-    display: flex;
-    justify-content: unset;
-}
-
-.skillItem{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    padding-right: 12px;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-   
-}
-   
+  .skillcontainer {
+        padding: 12px;
+        background-color: rgb(219, 244, 236);
+        display: flex;
+        justify-content: unset;
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+    
+    .skillItem {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        width: 50%; /* Set the width of each skill item to occupy 50% of the container */
+        box-sizing: border-box; /* Include padding and border in the width */
+    }
 
 .skillItem div {
     margin-left: 6px; /* Adjust this value to increase the space between skill name and line */
