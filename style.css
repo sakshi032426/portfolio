@@ -39,7 +39,7 @@
 .container{
     display: flex;
     background-color: rgb(201, 172, 172);
-    height:90vw;
+    height:100%;
 }
 .infocontainer{
    /* background-color: green;*/
