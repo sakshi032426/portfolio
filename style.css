@@ -383,58 +383,52 @@ p{
     }
 }*/
 @media (max-width: 768px) {
-    .sidebar {
-        left: 0;
+    .intro {
+        margin: 20px; /* Adjust margins for better spacing */
+    }
+    
+    .intro h2 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        margin: 10px; /* Adjust margins for better spacing */
+        margin-bottom: 14px; /* Adjust margins for better spacing */
     }
 
-    .main {
-        margin-left: 300px;
-    }
-
-    /* Show the menu button on mobile */
-    .menu-btn {
-        display: block;
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        cursor: pointer;
-    }
-
-    /* Hide devpic on smaller screens */
-    .devpic img {
-        display: none;
-    }
-
-    /* Adjust the font size for better readability on mobile */
-    .devinfo {
-        font-size: 16px;
-    }
-
-    .moreabout {
-        font-size: 24px;
-    }
-
-    /* Make the skill items wrap on smaller screens */
-    .skillItem {
-        white-space: normal;
-        overflow: visible;
-    }
-
-    /* Add spacing for better readability on mobile */
-    .contactform form div {
-        margin-top: 10px;
-    }
-
-    #emailHelp {
-        font-size: 14px;
+    .intro h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        margin: 0 12px; /* Adjust margins for better spacing */
+        margin-bottom: 14px; /* Adjust margins for better spacing */
     }
 }
+
+/* Adjust margins and font size for the index section on smaller screens */
 @media (max-width: 768px) {
-    .intro {
+    .index {
+        margin: 20px; /* Adjust margins for better spacing */
+    }
+    
+    .index h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
+        margin: 23px; /* Adjust margins for better spacing */
+    }
+
+    .index p {
         font-size: 20px; /* Adjust font size for smaller screens */
     }
 }
-  
-  
+
+/* Adjust the service section for smaller screens */
+@media (max-width: 768px) {
+    .hard {
+        width: calc(50% - 20px); /* Two columns with margins on smaller screens */
+    }
+}
+
+/* Further adjustments for even smaller screens (e.g., mobile) */
+@media (max-width: 480px) {
+    .hard {
+        width: 100%; /* Stack the boxes on mobile */
+        margin: 20px 0; /* Adjust margins for better spacing */
+    }
+}
 
 
