@@ -300,6 +300,8 @@ p{
         margin-bottom: 5px;
         width: 50%; /* Set the width of each skill item to occupy 50% of the container */
         box-sizing: border-box; /* Include padding and border in the width */
+          position: relative;
+        
     }
 
 .skillItem div {
@@ -380,5 +382,17 @@ p{
    }*/
     .intro,.Projcontainer,.contactform,.index{
         margin:  50px 8px;
+    }
+}
+@media (max-width: 600px) {
+    .hard, .softkill {
+        width: 80%; /* Increase the width of both containers to 100% */
+    }
+
+    .skillItem {
+        font-size: 14px; /* Adjust font size as needed for smaller screens */
+    }
+    .hundred, .fifty, .t5 {
+        width:60px;
     }
 }
