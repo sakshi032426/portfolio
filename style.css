@@ -371,7 +371,10 @@ p{
     }
     
     .buttons{
-        font-size: 6px;
+      font-size: 6px;
+        position: absolute;
+        margin: 2em;
+        top: 100em;
     }
     .devinfo{
         font-size: 10px;
