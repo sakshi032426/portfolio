@@ -351,6 +351,8 @@ p{
 
 
 @media (max-width: 1615px) {
+    *{
+    }
     .devpic {
         display:none;
     }
@@ -365,7 +367,7 @@ p{
        position:absolute;
    }
     .intro,.Projcontainer,.contactform,.index{
-        margin:  8px;
+        margin:  50px 8px;
     }
 }
   
