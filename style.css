@@ -300,9 +300,7 @@ p{
     display: flex;
     align-items: center;
     white-space: nowrap;
-     max-width: 100%; /* Set a maximum width to prevent overflow */
-    white-space: normal; /* Allow text to wrap */
-    overflow: hidden; /* Hide overflowing text */
+   
 }
    
 
