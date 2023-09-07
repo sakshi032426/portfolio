@@ -352,7 +352,7 @@ p{
 
 @media (max-width: 1615px) {
     .devpic {
-        clear: both;
+        display:none;
     }
     .buttons{
         font-size: 6px;
@@ -360,9 +360,12 @@ p{
     .devinfo{
         font-size: 10px;
     }
-   
+   .sidebar {
+       transform:translate(-443px,0px);
+       position:absolute;
+   }
     .intro,.Projcontainer,.contactform,.index{
-        margin: 50px 8px;
+        margin:  8px;
     }
 }
   
