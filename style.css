@@ -27,6 +27,7 @@
 .main{
   /* background-color: red;*/
     width: 90vw;
+    height:90vw;
     
 }
 /*.intro{
@@ -258,9 +259,10 @@ p{
 }
 .skillFill {
     min-height: 10px; /* Set a minimum height for the fill bars */
-    height: 100%; /* Ensure the fill bars occupy the full height of the skillBar div */
+    height: 100%; /* Ensure the fill bars occupy the full height of the skill bar */
     border-radius: 4px;
     background-color: green; /* Change the background color as needed */
+    width: 100%; /* Adjust the width to make the lines longer */
 }
 
 /* Style for skill container */
@@ -314,12 +316,12 @@ p{
 
 }
 .fifty{
-    width: 125px;
+    width: 70%px;
     background-color:blueviolet;
     border: 2px solid black;
 }
 .t5{
-    width: 75px;
+    width: 100%;
     background-color: yellow;
     border: 2px solid black;
 }
