@@ -403,3 +403,10 @@ p{
         width:60%;
     }
 }
+@media (max-width: 600px) {
+    .devpicc img{
+        width: 80px; /* Adjust the width for smaller screens */
+        top: 5px; /* Adjust the top position for smaller screens */
+        right: 5px; /* Adjust the right position for smaller screens */
+    }
+}
