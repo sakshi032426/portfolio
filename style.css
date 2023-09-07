@@ -362,10 +362,10 @@ p{
     .devinfo{
         font-size: 10px;
     }
-   .sidebar {
+   /*.sidebar {
        transform:translate(-443px,0px);
        position:absolute;
-   }
+   }*/
     .intro,.Projcontainer,.contactform,.index{
         margin:  50px 8px;
     }
