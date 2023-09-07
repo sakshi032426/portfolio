@@ -136,17 +136,19 @@ background-color:rgb(195, 222, 75);
 }
 .devpic img{
  
-   /* height: 35vh;
-    margin: 20vh;
-    position: absolute;
-    top: 23px;
-    right: 7px;*/
+  
     position: absolute;
     top: 23px;
     right: 7px;
     width: 200px;
    
    
+}
+.devpicc img {
+    position: absolute;
+    top: 13px;
+    right: 7px;
+    width: 100px;
 }
 
 .hard {
