@@ -251,12 +251,10 @@ p{
    padding: 22px;
     margin: 22px;
 }
-.skill{
-    width: 200px;
+.skill {
     height: 6px;
     background-color: red;
     border: 2px solid black;
-
 }
 .skillFill {
     min-height: 10px; /* Set a minimum height for the fill bars */
