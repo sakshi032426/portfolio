@@ -29,8 +29,12 @@
     width: 90vw;
     
 }
-.intro{
+/*.intro{
     margin:  88px;
+}*/
+.intro {
+    margin: 88px 20px; /* Add margins for better spacing */
+    text-align: center; /* Center the content */
 }
 .container{
     display: flex;
@@ -153,7 +157,12 @@ background-color:rgb(195, 222, 75);
      max-width: 300px; /* Set a maximum width to prevent overflow */
     box-sizing: border-box;
     display: inline-block;
+    vertical-align: top; /* Align boxes at the top */
     text-align: center; /* Center text inside the boxes */
+}
+.hard img {
+    max-width: 100%;
+    height: auto;
 }
   .hard p {
     font-size: 16px;
@@ -418,6 +427,11 @@ p{
 
     #emailHelp {
         font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .intro {
+        font-size: 20px; /* Adjust font size for smaller screens */
     }
 }
   
