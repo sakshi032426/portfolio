@@ -44,7 +44,8 @@
    /* background-color: green;*/
     height: 68vh;
     width: 80vw;
-    margin: 144px auto;
+  /*  margin: 144px auto;*/
+     margin:  88px;
     display: flex;
     justify-content: space-around;
 }
@@ -366,7 +367,7 @@ p{
 }
 
 
-/*@media (max-width: 1615px) {
+@media (max-width: 1615px) {
     *{
     }
     
@@ -383,54 +384,4 @@ p{
     .intro,.Projcontainer,.contactform,.index{
         margin:  50px 8px;
     }
-}*/
-@media (max-width: 768px) {
-    .intro {
-        margin: 20px; /* Adjust margins for better spacing */
-    }
-    
-    .intro h2 {
-        font-size: 24px; /* Adjust font size for smaller screens */
-        margin: 10px; /* Adjust margins for better spacing */
-        margin-bottom: 14px; /* Adjust margins for better spacing */
-    }
-
-    .intro h3 {
-        font-size: 20px; /* Adjust font size for smaller screens */
-        margin: 0 12px; /* Adjust margins for better spacing */
-        margin-bottom: 14px; /* Adjust margins for better spacing */
-    }
 }
-
-/* Adjust margins and font size for the index section on smaller screens */
-@media (max-width: 768px) {
-    .index {
-        margin: 20px; /* Adjust margins for better spacing */
-    }
-    
-    .index h1 {
-        font-size: 24px; /* Adjust font size for smaller screens */
-        margin: 23px; /* Adjust margins for better spacing */
-    }
-
-    .index p {
-        font-size: 20px; /* Adjust font size for smaller screens */
-    }
-}
-
-/* Adjust the service section for smaller screens */
-@media (max-width: 768px) {
-    .hard {
-        width: calc(50% - 20px); /* Two columns with margins on smaller screens */
-    }
-}
-
-/* Further adjustments for even smaller screens (e.g., mobile) */
-@media (max-width: 480px) {
-    .hard {
-        width: 100%; /* Stack the boxes on mobile */
-        margin: 20px 0; /* Adjust margins for better spacing */
-    }
-}
-
-
