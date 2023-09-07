@@ -27,7 +27,7 @@
 .main{
   /* background-color: red;*/
     width: 90vw;
-    height:90vw;
+    height:80vw;
     
 }
 /*.intro{
@@ -311,13 +311,13 @@ p{
     margin-left: 6px; /* Adjust this value to increase the space between skill name and line */
 }
 .hundered{
-    width: 265px;
+    width: 85%;
     background-color: aquamarine;
     border: 2px solid black;
 
 }
 .fifty{
-    width: 70%px;
+    width: 90%px;
     background-color:blueviolet;
     border: 2px solid black;
 }
