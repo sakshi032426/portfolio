@@ -131,15 +131,15 @@ background-color:rgb(195, 222, 75);
 }
 .devpic img{
  
-    height: 35vh;
+   /* height: 35vh;
     margin: 20vh;
     position: absolute;
     top: 23px;
-    right: 7px;
-  /*  position: absolute;
+    right: 7px;*/
+    position: absolute;
     top: 23px;
     right: 7px;
-    width: 200px;*/
+    width: 200px;
    
    
 }
@@ -353,9 +353,7 @@ p{
 @media (max-width: 1615px) {
     *{
     }
-    .devpic {
-        display:none;
-    }
+    
     .buttons{
         font-size: 6px;
     }
@@ -366,7 +364,7 @@ p{
        transform:translate(-443px,0px);
        position:absolute;
    }*/
-    .intro,.Projcontainer,.contactform,.index,.services{
+    .intro,.Projcontainer,.contactform,.index{
         margin:  50px 8px;
     }
 }
