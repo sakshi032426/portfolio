@@ -40,6 +40,7 @@
 .container{
     display: flex;
     background-color: rgb(201, 172, 172);
+    height:100vw;
 }
 .infocontainer{
    /* background-color: green;*/
@@ -300,7 +301,7 @@ p{
         display: flex;
         justify-content: space-between;
         margin-bottom: 5px;
-        width: 50%; /* Set the width of each skill item to occupy 50% of the container */
+        width: 100%; /* Set the width of each skill item to occupy 50% of the container */
         box-sizing: border-box; /* Include padding and border in the width */
           position: relative;
         
