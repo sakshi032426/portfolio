@@ -39,7 +39,7 @@
 .container{
     display: flex;
     background-color: rgb(201, 172, 172);
-    height:100vw;
+    height:90vw;
 }
 .infocontainer{
    /* background-color: green;*/
@@ -316,7 +316,7 @@ p{
 
 }
 .fifty{
-    width: 90%px;
+    width: 90%;
     background-color:blueviolet;
     border: 2px solid black;
 }
