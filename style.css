@@ -115,6 +115,14 @@ font-family: 'Poppins', sans-serif;
     word-wrap: break-word;
       overflow: hidden; 
 }
+.morabout{
+    font-size: 2em;
+    margin-top: 23px ;
+    font-family: 'Raleway', sans-serif;
+       flex-wrap: wrap;
+    word-wrap: break-word;
+      overflow: hidden; 
+}
 .buttons {
     margin: 2.2em;
     font-size: 6px;
@@ -395,7 +403,7 @@ p{
 
 @media (max-width: 600px) {
     .moreabout {
-        font-size: 24px; /* Increase the font size for smaller screens */
+        font-size: 32px; /* Increase the font size for smaller screens */
         text-align: center; /* Center-align the text on smaller screens */
     }
     .about{
@@ -464,7 +472,7 @@ p{
 @media (max-width: 600px) {
     .web-design-paragraph,
     .xampp-paragraph,
-    .moreabout
+    .morabout
     {
         font-size: 5px; /* Adjust font size for smaller screens */
     }
