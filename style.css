@@ -395,7 +395,7 @@ p{
 
 @media (max-width: 600px) {
     .moreabout {
-        font-size: 8em; /* Increase the font size for smaller screens */
+        font-size: 2em; /* Increase the font size for smaller screens */
         text-align: center; /* Center-align the text on smaller screens */
     }
     .about{
