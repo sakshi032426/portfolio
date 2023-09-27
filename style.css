@@ -415,7 +415,7 @@ p{
 }
 @media (max-width: 600px) {
     .devpicc img{
-        width: 80px; /* Adjust the width for smaller screens */
+        width: 60px; /* Adjust the width for smaller screens */
         top: 5px; /* Adjust the top position for smaller screens */
         right: 5px; /* Adjust the right position for smaller screens */
     }
@@ -440,6 +440,8 @@ p{
     .services-container {
         width: 100%; /* Set the width to 100% for smaller screens */
         margin: 20px 8px; /* Reduce margin for smaller screens */
+        overflow: hidden; /* Hide content that overflows the container */
+        height: auto;
     }
 }
 
@@ -452,11 +454,11 @@ p{
     .web-design-paragraph,
     .xampp-paragraph,
     .moreabout {
-        font-size: 7px; /* Adjust font size for smaller screens */
+        font-size: 5px; /* Adjust font size for smaller screens */
     }
     
     .paragraph {
-        font-size: 6px; /* Adjust font size for smaller screens */
+        font-size: 5px; /* Adjust font size for smaller screens */
         padding: 8px; /* Adjust padding for smaller screens */
     }
 }
