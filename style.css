@@ -416,9 +416,10 @@ p{
     /* Adjust styles for smaller screens */
 
     .services-container {
-        width: 90%; /* Reduce the width for smaller screens */
+        width: 100%; /* Reduce the width for smaller screens */
  /*       margin: 16px auto;  Center-align the container */
         margin:  50px 8px;
+        height:100%;
     }
 
     .moreabout,
