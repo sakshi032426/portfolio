@@ -438,15 +438,7 @@ p{
         right: 5px; /* Adjust the right position for smaller screens */
     }
 }
-/*@media (max-width: 600px) {
-     Adjust styles for smaller screens */
 
-  /*  .services-container {
-        width: 100%; /* Reduce the width for smaller screens */
-       margin: 16px auto;  Center-align the container */
-        margin:  50px 8px;
-        height:150%;
-    }*/
 @media (max-width: 600px) {
     .services-container {
         width: 100%; /* Set the width to 100% for smaller screens */
@@ -456,11 +448,7 @@ p{
     }
 }
 
- /*   .moreabout,
-    .xampp-paragraph {
-        font-size: 6px; /* Reduce font size for smaller screens */
-    }
-}*/
+
 @media (max-width: 600px) {
     .web-design-paragraph,
     .xampp-paragraph,
