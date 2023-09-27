@@ -464,6 +464,7 @@ p{
 @media (max-width: 600px) {
     .web-design-paragraph,
     .xampp-paragraph,
+    .moreabout
     {
         font-size: 5px; /* Adjust font size for smaller screens */
     }
