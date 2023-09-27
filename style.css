@@ -108,7 +108,7 @@ font-family: 'Poppins', sans-serif;
       overflow: hidden; 
 }
 .moreabout{
-    font-size: 2em;
+    font-size: 5em;
     margin-top: 23px ;
     font-family: 'Raleway', sans-serif;
        flex-wrap: wrap;
@@ -116,7 +116,7 @@ font-family: 'Poppins', sans-serif;
       overflow: hidden; 
 }
 .morabout{
-    font-size: 2em;
+    font-size: 4em;
     margin-top: 23px ;
     font-family: 'Raleway', sans-serif;
        flex-wrap: wrap;
@@ -403,7 +403,7 @@ p{
 
 @media (max-width: 600px) {
     .moreabout {
-        font-size: 32px; /* Increase the font size for smaller screens */
+        font-size: 3em; /* Increase the font size for smaller screens */
         text-align: center; /* Center-align the text on smaller screens */
     }
     .about{
@@ -411,7 +411,7 @@ p{
         text-align: center; 
 }
     .footer{
-        width:100%;
+        width:120%;
     }
 }
 @media (max-width: 1615px) {
