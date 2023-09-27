@@ -76,7 +76,9 @@ font-weight: bold;
 font-family: 'Poppins', sans-serif;
 }
 .about{
-   font-size: 2.5em;
+  flex-wrap: wrap;
+    word-wrap: break-word; /* Add this property */
+    overflow: hidden;
 }
 /* Style for the web design paragraph */
 .web-design-paragraph {
