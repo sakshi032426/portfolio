@@ -108,7 +108,7 @@ font-family: 'Poppins', sans-serif;
       overflow: hidden; 
 }
 .moreabout{
-    font-size: 4em;
+    font-size: 7em;
     margin-top: 23px ;
     font-family: 'Raleway', sans-serif;
        flex-wrap: wrap;
@@ -395,7 +395,7 @@ p{
 
 @media (max-width: 600px) {
     .moreabout {
-        font-size: 10rem; /* Increase the font size for smaller screens */
+        font-size: 8em; /* Increase the font size for smaller screens */
         text-align: center; /* Center-align the text on smaller screens */
     }
     .about{
