@@ -393,7 +393,16 @@ p{
     }
 }
 
-
+@media (max-width: 600px) {
+    .moreabout {
+        font-size: 24px; /* Increase the font size for smaller screens */
+        text-align: center; /* Center-align the text on smaller screens */
+    }
+    .about{
+             font-size: 24px; /* Increase the font size for smaller screens */
+        text-align: center; 
+}
+}
 @media (max-width: 1615px) {
     *{
     }
@@ -407,10 +416,7 @@ p{
     .devinfo{
         font-size: 10px;
     }
-   /*.sidebar {
-       transform:translate(-443px,0px);
-       position:absolute;
-   }*/
+  
     .intro,.Projcontainer,.contactform,.index{
         margin:  50px 8px;
     }
