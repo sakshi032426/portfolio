@@ -150,7 +150,7 @@ background-color:rgb(195, 222, 75);
     position: absolute;
     top: 23px;
     right: 7px;
-    width: 200px;
+    width: 100px;
    
    
 }
@@ -338,6 +338,9 @@ p{
     transform: translate(-443px, 0px);
     position: absolute;
 }
+.service-container {
+    overflow: hidden;
+}
 .hamburger{
     position: absolute;
     cursor: pointer;
@@ -449,11 +452,11 @@ p{
     .web-design-paragraph,
     .xampp-paragraph,
     .moreabout {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 7px; /* Adjust font size for smaller screens */
     }
     
     .paragraph {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        font-size: 6px; /* Adjust font size for smaller screens */
         padding: 8px; /* Adjust padding for smaller screens */
     }
 }
