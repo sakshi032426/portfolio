@@ -40,11 +40,15 @@ html, body {
     margin: 88px 20px; /* Add margins for better spacing */
     text-align: center; /* Center the content */
 }
-.container{
+.container {
     display: flex;
-    background-color: rgb(201, 172, 172);
-    height:120%;
+  /*  background-color: rgb(201, 172, 172);*/
+    min-height: 100vh; /* Change height to minimum 100% of viewport height */
+    width: 100%; /* Set width to 100% to fill the entire viewport width */
+    flex-direction: column; /* Stack children vertically */
+    overflow: hidden; /* Hide content that overflows */
 }
+    
 .infocontainer{
    /* background-color: green;*/
     height: 68vh;
