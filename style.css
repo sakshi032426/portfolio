@@ -92,11 +92,16 @@ font-family: 'Poppins', sans-serif;
     color: #555;
     font-weight: 600;
      flex-wrap: wrap;
+    word-wrap: break-word;
+      overflow: hidden; 
 }
 .moreabout{
     font-size: 2em;
     margin-top: 23px ;
     font-family: 'Raleway', sans-serif;
+       flex-wrap: wrap;
+    word-wrap: break-word;
+      overflow: hidden; 
 }
 .buttons {
     margin: 2.2em;
@@ -415,15 +420,31 @@ p{
 @media (max-width: 600px) {
     /* Adjust styles for smaller screens */
 
-    .services-container {
+  /*  .services-container {
         width: 100%; /* Reduce the width for smaller screens */
- /*       margin: 16px auto;  Center-align the container */
+       margin: 16px auto;  Center-align the container */
         margin:  50px 8px;
         height:150%;
+    }*/
+@media (max-width: 600px) {
+    .services-container {
+        margin: 20px 8px; /* Reduce margin for smaller screens */
     }
 
-    .moreabout,
+    .ProjItem {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+ /*   .moreabout,
     .xampp-paragraph {
-        font-size: 10px; /* Reduce font size for smaller screens */
+        font-size: 6px; /* Reduce font size for smaller screens */
+    }
+}*/
+@media (max-width: 600px) {
+    .xampp-paragraph,
+    .paragraph {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        padding: 8px; /* Adjust padding for smaller screens */
     }
 }
