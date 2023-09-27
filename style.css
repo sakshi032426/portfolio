@@ -46,7 +46,7 @@ html, body {
     min-height: 100vh; /* Change height to minimum 100% of viewport height */
     width: 100%; /* Set width to 100% to fill the entire viewport width */
     flex-direction: column; /* Stack children vertically */
-    overflow: hidden; /* Hide content that overflows */
+  
 }
     
 .infocontainer{
