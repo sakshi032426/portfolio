@@ -418,7 +418,14 @@ p{
     }
 }
 @media (max-width: 600px) {
-    /* Adjust styles for smaller screens */
+    .devpicc img {
+        width: 80px; /* Adjust the width for smaller screens */
+        top: 5px; /* Adjust the top position for smaller screens */
+        right: 5px; /* Adjust the right position for smaller screens */
+    }
+}
+/*@media (max-width: 600px) {
+     Adjust styles for smaller screens */
 
   /*  .services-container {
         width: 100%; /* Reduce the width for smaller screens */
@@ -428,11 +435,8 @@ p{
     }*/
 @media (max-width: 600px) {
     .services-container {
+        width: 100%; /* Set the width to 100% for smaller screens */
         margin: 20px 8px; /* Reduce margin for smaller screens */
-    }
-
-    .ProjItem {
-        font-size: 14px; /* Adjust font size for smaller screens */
     }
 }
 
@@ -442,9 +446,14 @@ p{
     }
 }*/
 @media (max-width: 600px) {
+    .web-design-paragraph,
     .xampp-paragraph,
+    .moreabout {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
     .paragraph {
-        font-size: 14px; /* Reduce font size for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
         padding: 8px; /* Adjust padding for smaller screens */
     }
 }
