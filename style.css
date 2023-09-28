@@ -425,10 +425,13 @@ p{
       font-size: 6px;
         position: absolute;
         margin: 2em;
-        top: 150em;
+        top: 80em;
     }
     .devinfo{
         font-size: 10px;
+    }
+    .footer{
+        width:100%
     }
   
     .intro,.Projcontainer,.contactform,.index{
