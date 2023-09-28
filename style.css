@@ -167,13 +167,10 @@ background-color:rgb(195, 222, 75);
 }
 .devpic img{
  
-  
     position: absolute;
     top: 23px;
     right: 7px;
     width: 100px;
-   
-   
 }
 .devpicc img {
     position: absolute;
@@ -384,8 +381,9 @@ p{
     background-color: #f5f5f5;
     color: white;
     background-color: black;
-      width: 120%;
-     height: 50px;
+      width: 100%; /* Set the width to 100% for full screen width on all screens */
+    position: fixed; /* Add a fixed position to make it stick to the bottom of the screen */
+    bottom: 0; /* Position it at the bottom of the screen */
 }
 .typing-text {
     overflow: hidden;
