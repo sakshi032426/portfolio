@@ -421,12 +421,7 @@ p{
     *{
     }
     
-   /* .buttons{
-      font-size: 6px;
-        position: absolute;
-        margin: 2em;
-        top: 80em;
-    }*/
+  
     .devinfo{
         font-size: 10px;
     }
@@ -447,12 +442,7 @@ p{
         bottom: 20px; /* Adjust the 'bottom' property to control button placement */
     }
 }
-@media (max-width: 600px) {
-    .footer {
-        width: 100%; /* Set the width to 100% for full screen width */
-        padding: 20px 0; /* Adjust padding for better spacing */
-    }
-}
+
 @media (max-width: 600px) {
     .hard, .softkill {
         width: 80%; /* Increase the width of both containers to 100% */
