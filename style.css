@@ -35,9 +35,7 @@ body {
     height:100vw;
     
 }
-/*.intro{
-    margin:  88px;
-}*/
+
 .intro {
     margin: 88px 20px; /* Add margins for better spacing */
     text-align: center; /* Center the content */
@@ -125,15 +123,17 @@ font-family: 'Poppins', sans-serif;
       margin: 2em;
         top: 250em;
 }
+
 .cont {
-    background-color: rgb(239, 250, 246);
-    padding: 23px;
+    background-color: #ecf0f1; /* Set your preferred background color */
+    padding: 20px; /* Adjust padding as needed */
     margin: 16px;
-    border: 2px solid black;
-    border-radius: 5px; /* Adjust the border-radius as needed */
+    border: 2px solid #3498db; /* Set your preferred border color */
+    border-radius: 5px;
     font-family: 'Raleway', sans-serif;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
 .btn {
 padding: 10px;
 border-radius: 22px;
@@ -231,10 +231,7 @@ padding: 3px 0 0 0;
     width: 24px;
     margin: 3px 0;
 }
-/*.ProjItem{
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}*/
+
 .ProjItem {
     max-width: 600px;
     margin: 20px auto;
