@@ -231,9 +231,22 @@ padding: 3px 0 0 0;
     width: 24px;
     margin: 3px 0;
 }
-.ProjItem{
+/*.ProjItem{
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}*/
+.ProjItem {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 .Projcontainer{
     margin:  88px;
