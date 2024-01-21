@@ -398,6 +398,75 @@ p{
     width: 0;
     animation: typing 1s steps(10, end) forwards;
 }
+/* Add this CSS code to your existing style.css file */
+
+.achievements,
+.certifications {
+    margin-top: 30px;
+}
+
+h2 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Add some styling to make the achievements and certifications stand out */
+.achievements {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certifications {
+    background-color: #eaf7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Add this CSS code for responsive design */
+
+@media (max-width: 600px) {
+    .achievements,
+    .certifications {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1615px) {
+    .achievements,
+    .certifications {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .achievements,
+    .certifications {
+        background-color: #f9f9f9;
+        box-shadow: none;
+    }
+}
+
 
 @keyframes typing {
     from {
