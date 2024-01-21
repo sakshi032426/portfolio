@@ -401,16 +401,22 @@ p{
 }
 /* Add this CSS code to your existing style.css file */
 
+/* Add this CSS code to your existing style.css file */
+
+/* ... (Previous styles remain unchanged) ... */
+
 .achievements,
 .certifications {
     margin-top: 0px;
-   
 }
- .achievements,
-.certifications-paragraph{ background-color: #f9f9f9;
-     border-radius: 10px;
+
+.achievements,
+.certifications-paragraph {
+    background-color: #f9f9f9;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                         }
+}
+
 .achievements h2,
 .certifications h2 {
     color: #3498db;
@@ -427,11 +433,20 @@ li {
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+/* Additional styling for the boxes */
+.achievements {
+    background-color: #fdfddb; /* Light yellow background color */
+}
+
+.certifications {
+    background-color: #fdfddb; /* Light yellow background color */
+}
+
 @media (max-width: 600px) {
     .achievements,
     .certifications {
         padding: 10px;
-        
     }
 
     h2 {
@@ -453,10 +468,11 @@ li {
 @media (max-width: 600px) {
     .achievements,
     .certifications {
-        background-color: #f9f9f9;
+        background-color: #fdfddb; /* Light yellow background color */
         box-shadow: none;
     }
 }
+
 
 
 @keyframes typing {
