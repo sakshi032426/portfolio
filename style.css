@@ -52,9 +52,9 @@ body {
 .infocontainer{
    /* background-color: green;*/
     height: 68vh;
-    width: 80vw;
+  /*  width: 80vw;*/
   /*  margin: 144px auto;*/
-     margin:  88px;
+   /*  margin:  88px;*/
     display: flex;
      align-items: center;
     justify-content: space-around;
@@ -403,7 +403,7 @@ p{
 
 .achievements,
 .certifications {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 h2 {
@@ -421,90 +421,11 @@ li {
     margin-bottom: 10px;
     line-height: 1.5;
 }
-
-/* Add some styling to make the achievements and certifications stand out */
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakshi Ray-Web Developer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-      <div class="sidebar sidebarGo">
-          
-        <nav>
-            <ul>
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="intro.html">Intro</a></li>
-                 <li><a href="services.html">Services</a></li>
-                 <li><a href="proj.html">Projects</a></li>
-                 <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-      </div>
-     <div class="main">
-        <div class="hamburger">
-            <img class="ham" src="ham.png" alt="" width="23">
-            <img class="cross" src="cross.png" alt="" width="23">
-        </div>
-        <div class="infocontainer">
-            <div class="devinfo">
-                <div class="hello">Hi I am</div>
-                <div class="name">Sakshi Ray</div>
-                <div class="about">Final Year Student of MSIT</div>
-                <div class="morabout">
-                  I am currently pursuing a B.Tech degree in Information Technology at Meghnad Saha Institute of Technology(9.3 CGPA). 
-                    <br>
-                  Throughout my academic journey, I have honed my technical skills through coursework, personal projects, and continuous learning. 
-                    My academic achievements have provided me with a solid foundation in computer science, 
-                    and I have had the privilege of working with a diverse range of programming languages and technologies. 
-                    <br>
-                    In particular, my skills include C++, Java, HTML, CSS, JavaScript, SQL, PHP, object-oriented programming (OOPs). Quick learner and Flexible to learn new technologies.
-                </div>
-                <div class="web-design-paragraph">
-                    I possess a keen eye for design, specializing in crafting modern and responsive web layouts that not only capture users' attention but also deliver the intended message with clarity and impact. My design philosophy revolves around creating visually stunning websites that seamlessly blend aesthetics and functionality, ensuring an engaging user experience
-                </div>
-                <div class="xampp-paragraph">
-                    When it comes to managing databases, I have hands-on experience with XAMPP and Apache, ensuring efficient data storage and retrieval for web applications. I can set up and maintain MySQL databases to support your project's data needs.
-                </div>
-                
-            </div>
-            <div class="devpicc"><img src="sak.jpg" alt="Sakshi Ray"></div>
-        </div>
-             <div class="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>Ratings on coding platforms - I have earned 10 badges on CodingNinjas.</li>
-            <li>Total 800 problems solved (GFG, CodingNinjas, Leetcode) - <a href="(Profile Link)">Profile</a></li>
-            <li>CodeKaze - Certificate of achievement.</li>
-            <li>HackerRank - SQL certificate & 3 badges earned.</li>
-            <li>Team Player and School Captain - Bronze Medal - Inter School Basketball Competition.</li>
-            <li>Debate Competition - 3rd position in Inter School Debate Competition.</li>
-            <li>Olympiad - Gold Medal (Science Olympiad and Hindi Olympiad).</li>
-        </ul>
-    </div>
-
-    <div class="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>Microsoft Cyber Suraksha Program - Certified.</li>
-            <li>JP Morgan & Chase - Software Engineering program completion certified.</li>
-        </ul>
-    </div>
-     </div>
-</div>
-  
-<script src="script.js"></script>
-</body>
-</html>
 @media (max-width: 600px) {
     .achievements,
     .certifications {
         padding: 10px;
+        
     }
 
     h2 {
