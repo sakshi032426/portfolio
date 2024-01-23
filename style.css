@@ -40,9 +40,6 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.sidebarGo .main {
-    margin-left: 250px;
-}
 
 .intro {
     margin: 88px 20px; /* Add margins for better spacing */
