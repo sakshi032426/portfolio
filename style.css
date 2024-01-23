@@ -9,30 +9,38 @@ body {
     padding: 0;
 }
 
-.sidebar{
+.sidebar {
     position: fixed;
     background-color: rgba(128, 128, 128, 0.958);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    transition: transform 0.3s ease-in;
     width: 0;
-    
+    overflow-x: hidden;
+    transition: width 0.3s ease-in;
+    z-index: 1;
 }
-.sidebar nav{
+
+.sidebar nav {
     padding: 45px;
-    
 }
-.sidebar nav li{
+
+.sidebar nav li {
     list-style: none;
     font-size: 30px;
-    padding: 33px 0;
+    padding: 20px 0;
 }
-.sidebar nav li a{
+
+.sidebar nav li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.84);
-    padding:10px;
-    display:block;
+    display: block;
+    padding: 10px;
 }
+
+.sidebarGo.sidebar {
+    width: 250px;
+}
+
 .main {
     max-width: 800px; /* Adjust this value based on your design */
     width: 100%;
