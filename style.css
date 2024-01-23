@@ -10,27 +10,44 @@ body {
 }
 
 
- .sidebar{
+.sidebar {
     position: absolute;
     background-color: rgba(128, 128, 128, 0.958);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
 }
-.sidebar nav{
+
+.sidebar nav {
     padding: 45px;
-    
 }
-.sidebar nav li{
+
+.sidebar nav li {
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
 }
-.sidebar nav li a{
+
+.sidebar nav li a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.84)
+    color: rgba(0, 0, 0, 0.84);
 }
 
+.sidebar .hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+}
+
+.cross {
+    margin-left: auto;
+    margin-top: 10px;
+}
 
 .main {
     max-width: 800px; /* Adjust this value based on your design */
@@ -381,7 +398,7 @@ p{
 .service-container {
     overflow: hidden;
 }
-.hamburger{
+/*.hamburger{
     position: absolute;
     cursor: pointer;
     top: 10px;
@@ -394,7 +411,7 @@ p{
 .cross{
     margin-left: 185px;
     margin-top: 10px;
-}
+}*/
 
 .footer {
     text-align: center;
