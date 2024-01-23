@@ -11,6 +11,8 @@ body {
 
 /* ... (Previous styles remain unchanged) ... */
 
+/* ... (Previous styles remain unchanged) ... */
+
 /* Set initial styles for sidebar */
 .sidebar {
     position: fixed;
@@ -41,6 +43,8 @@ body {
     display: block;
     padding: 10px;
 }
+
+/* ... (Previous styles remain unchanged) ... */
 
 .sidebarGo.sidebar {
     width: 250px;
