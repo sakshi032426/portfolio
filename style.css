@@ -19,6 +19,7 @@ body {
     background-color: rgba(128, 128, 128, 0.958);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    left:0;
     transition: transform 0.3s ease-in;
 }
 
