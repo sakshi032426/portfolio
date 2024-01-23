@@ -10,12 +10,11 @@ body {
 }
 
 
-   .sidebar{
+ .sidebar{
     position: absolute;
     background-color: rgba(128, 128, 128, 0.958);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-  
     transition: transform 0.3s ease-in;
 }
 .sidebar nav{
