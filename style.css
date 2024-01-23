@@ -10,7 +10,7 @@ body {
 }
 
 .sidebar{
-    position: absolute;
+    position: fixed;
     background-color: rgba(128, 128, 128, 0.958);
     font-family: 'Poppins', sans-serif;
     height: 100vh;
@@ -27,7 +27,8 @@ body {
 }
 .sidebar nav li a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.84)
+    color: rgba(0, 0, 0, 0.84);
+    padding:10px;
 }
 .main {
     max-width: 800px; /* Adjust this value based on your design */
@@ -379,7 +380,7 @@ p{
     overflow: hidden;
 }
 .hamburger{
-    position: absolute;
+    position: fixed;
     cursor: pointer;
     top: 10px;
     left: 10px;
@@ -387,10 +388,12 @@ p{
 .ham{
     margin-top: 10px;
     margin-left: 10px;
+   
 }
 .cross{
     margin-left: 185px;
     margin-top: 10px;
+    position: fixed;
 }
 .footer {
     text-align: center;
