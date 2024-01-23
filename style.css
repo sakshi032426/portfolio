@@ -382,7 +382,7 @@ p{
     overflow: hidden;
 }
 .hamburger{
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
@@ -390,13 +390,12 @@ p{
 .ham{
     margin-top: 10px;
     margin-left: 10px;
-   
 }
 .cross{
     margin-left: 185px;
     margin-top: 10px;
-    position: fixed;
 }
+
 .footer {
     text-align: center;
     padding: 20px 0;
