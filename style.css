@@ -29,25 +29,38 @@ body {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.84)
 }
-.main{
-  /* background-color: red;*/
-    width: 100vw;
-    height:100vw;
-    
+.main {
+    max-width: 800px; /* Adjust this value based on your design */
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .intro {
     margin: 88px 20px; /* Add margins for better spacing */
     text-align: center; /* Center the content */
 }
+
+   /* display: flex;*/
+  /*  background-color: rgb(201, 172, 172);*/
+   /* min-height: 100vh;  Change height to minimum 100% of viewport height */
+   /* width: 100%;  Set width to 100% to fill the entire viewport width */
+    /*flex-direction: column;  Stack children vertically */
+    /* Container styles */
 .container {
     display: flex;
-  /*  background-color: rgb(201, 172, 172);*/
-    min-height: 100vh; /* Change height to minimum 100% of viewport height */
-    width: 100%; /* Set width to 100% to fill the entire viewport width */
-    flex-direction: column; /* Stack children vertically */
-  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+  
+@media (max-width: 600px) {
+    .main {
+        padding: 10px;
+    }
+}
+
     
 .infocontainer{
    /* background-color: green;*/
