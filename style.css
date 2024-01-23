@@ -10,6 +10,10 @@ body {
 }
 
 
+.container {
+    display: flex;
+}
+
 .sidebar {
     position: absolute;
     background-color: rgba(128, 128, 128, 0.958);
@@ -33,7 +37,7 @@ body {
     color: rgba(0, 0, 0, 0.84);
 }
 
-.sidebar .hamburger {
+.hamburger {
     position: absolute;
     cursor: pointer;
     top: 10px;
@@ -48,6 +52,7 @@ body {
     margin-left: auto;
     margin-top: 10px;
 }
+
 
 .main {
     max-width: 800px; /* Adjust this value based on your design */
