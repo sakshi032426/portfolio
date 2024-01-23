@@ -16,7 +16,7 @@ body {
     height: 100vh;
     transition: transform 0.3s ease-in;
     width: 0;
-    overflow-x: hidden;
+    
 }
 .sidebar nav{
     padding: 45px;
