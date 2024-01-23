@@ -15,6 +15,8 @@ body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
+    width: 0;
+    overflow-x: hidden;
 }
 .sidebar nav{
     padding: 45px;
@@ -29,6 +31,7 @@ body {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.84);
     padding:10px;
+    display:block;
 }
 .main {
     max-width: 800px; /* Adjust this value based on your design */
@@ -36,6 +39,9 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sidebarGo .main {
+    margin-left: 250px;
 }
 
 .intro {
@@ -136,7 +142,7 @@ font-family: 'Poppins', sans-serif;
     /*bottom: 100px;  Adjust this value as needed */
     position: absolute;
       margin: 2em;
-        top: 250em;
+        top: 89em;
 }
 
 .cont {
